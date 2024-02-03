@@ -9,7 +9,7 @@ starterGui:SetCore("SendNotification", {
     Duration = 7
 })
 
-local Window = OrionLib:MakeWindow({Name = "Reaper Hub", HidePremium = false, SaveConfig = false, ConfigFolder = "ReaperHub"})
+local Window = OrionLib:MakeWindow({Name = "Reaper Hub", HidePremium = false, Draggable = true, IntroText = "Reaper Hub", SaveConfig = false, ConfigFolder = "ReaperHub"})
 
 local Tab = Window:MakeTab({
 	Name = "Test",

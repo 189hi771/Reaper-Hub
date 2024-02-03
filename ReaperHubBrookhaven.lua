@@ -10,9 +10,9 @@ starterGui:SetCore("SendNotification", {
 })
 
 local Window = OrionLib:MakeWindow({Name = "Reaper Hub", HidePremium = false, IntroText = "Reaper Hub", SaveConfig = false, ConfigFolder = "ReaperHub"})
-OrionLib:MakeDraggable(DragPoint, Window)
+
 local Tab = Window:MakeTab({
-	Name = "Test",
+	Name = "Player",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })

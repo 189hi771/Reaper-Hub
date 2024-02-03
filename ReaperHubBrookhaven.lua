@@ -1,7 +1,7 @@
 -- Variables
 local starterGui = game:GetService("StarterGui")
 
-staterGui:SetCore("SendNotification", {
+starterGui:SetCore("SendNotification", {
     Title = "Reaper Hub",
     Text = "Reaper Hub has loaded",
     Duration = 7

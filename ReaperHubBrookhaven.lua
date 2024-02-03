@@ -50,7 +50,7 @@ local JumpSlider = PlayerTab:AddSlider({
 })
 
 ScriptsTab:AddButton({
-	Name = "Infinite Yield",
+	Name = "Infinite Yield Admin Commands",
 	Callback = function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end    

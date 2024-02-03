@@ -18,7 +18,7 @@ local PlayerTab = Window:MakeTab({
 })
 
 
-PlayerTab:AddSlider({
+local SpeedSlider = PlayerTab:AddSlider({
 	Name = "WalkSpeed",
 	Min = 0,
 	Max = 500,
@@ -29,6 +29,7 @@ PlayerTab:AddSlider({
 		game.Players.Character.Humanoid.WalkSpeed = Value
 	end    
 })
+
 
 
 OrionLib:Init()

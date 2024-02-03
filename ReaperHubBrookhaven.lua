@@ -27,7 +27,7 @@ local SpeedSlider = PlayerTab:AddSlider({
 	Increment = 1,
 	ValueName = "WalkSpeed",
 	Callback = function(Value)
-		game.Players.Character.Humanoid.WalkSpeed = Value
+	print(Value)	game.Players.Character.Humanoid.WalkSpeed = Value
 	end    
 })
 

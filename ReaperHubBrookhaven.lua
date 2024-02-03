@@ -27,7 +27,20 @@ local SpeedSlider = PlayerTab:AddSlider({
 	Increment = 1,
 	ValueName = "WalkSpeed",
 	Callback = function(Value)
-	print(Value)	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end    
+})
+
+local JumpSlider = PlayerTab:AddSlider({
+	Name = "JumpPower",
+	Min = 0,
+	Max = 500,
+	Default = 50,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "JumpPower",
+	Callback = function(Value)
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 	end    
 })
 

@@ -11,10 +11,24 @@ starterGui:SetCore("SendNotification", {
 
 local Window = OrionLib:MakeWindow({Name = "Reaper Hub", HidePremium = false, IntroText = "Reaper Hub", SaveConfig = false, ConfigFolder = "ReaperHub"})
 
-local Tab = Window:MakeTab({
+local PlayerTab = Window:MakeTab({
 	Name = "Player",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
+
+Tab:AddSlider({
+	Name = "WalkSpeed",
+	Min = 0,
+	Max = 500,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "WalkSpeed",
+	Callback = function(Value)
+		game.Players.Character.Humanoid.WalkSpeed = Value
+	end    
+})
+
 
 OrionLib:Init()

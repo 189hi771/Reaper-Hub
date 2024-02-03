@@ -22,6 +22,7 @@ local SpeedSlider = PlayerTab:AddSlider({
 	Name = "WalkSpeed",
 	Min = 0,
 	Max = 500,
+ Default = 0,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
 	ValueName = "WalkSpeed",

@@ -57,7 +57,7 @@ ScriptsTab:AddButton({
 })
 
 ScriptsTab:AddButton({
-	Name = "Telekinesis",
+	Name = "Telekinesis Tool",
 	Callback = function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/SAZXHUB/Control-update/main/README.md'),true))()
 	end    

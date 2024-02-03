@@ -18,7 +18,7 @@ local PlayerTab = Window:MakeTab({
 })
 
 
-Tab:AddSlider({
+PlayerTab:AddSlider({
 	Name = "WalkSpeed",
 	Min = 0,
 	Max = 500,

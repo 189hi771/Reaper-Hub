@@ -77,7 +77,7 @@ ScriptsTab:AddButton({
   	end    
 })
 
-Tab:AddTextbox({
+TeleportTab:AddTextbox({
 	Name = "Fling Player",
 	Default = "Player Name",
 	TextDisappear = true,
